@@ -212,11 +212,6 @@ s({trig="ua",snippetType= "autosnippet",dscr= "Up arrow",wordTrig = false},
       t("\\uparrow"),
   },{condition = in_mathzone}),
 
-s({trig="da",snippetType= "autosnippet",dscr= "Down arrow",wordTrig = false},
-    {
-      t("\\downarrow"),
-  },{condition = in_mathzone}),
-
 
 s({trig="lra",snippetType= "autosnippet", priority = 1001 ,dscr= "Left Right arrow",wordTrig = false},
     {

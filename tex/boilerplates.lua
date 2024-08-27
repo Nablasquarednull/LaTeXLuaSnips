@@ -10,6 +10,7 @@ return {
 				\usepackage[margin=1in]{geometry} 
 				\usepackage{amsmath,amsthm,amssymb,enumitem}
 				\usepackage[german,spanish,english]{babel}
+				\usepackage{cite}
 				\usepackage{tensor}
 				\usepackage{graphicx}
 				\usepackage{esint}
@@ -69,6 +70,9 @@ return {
 			\maketitle
 			\newpage
 			<>
+			\selectlanguage{spanish}
+			\bibliography{cite}{} %documento con nombre "cite.bib"
+			\bibliographystyle{plain}
 			\end{document}
 			]],
 			{ i(1, "Title"),i(2, "Name"),i(0) }
