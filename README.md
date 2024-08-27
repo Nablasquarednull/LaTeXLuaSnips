@@ -1,4 +1,4 @@
-(VERISIÓN EN ESPAÑOL DEBAJO)
+(VERISIÓN EN ESPAÑOL DEBAJO)<br />
 --------------SUPERCHARGED MATHEMATICAL TYPING LUASNIP SNIPPETS--------------<br />
 A handful of snippets crafted to type LaTeX documents fast.<br />
 
