@@ -7,7 +7,9 @@ This project uses the neovim plugin Luasnip: https://github.com/L3MON4D3/LuaSnip
 You might also want to have Vimtex installed and configured:https://github.com/lervag/vimtex<br />
 
 NOTE: Some of the snippets are defined to work with the LaTeX definitions (mathtools package dependency) found in "boilerplates.lua". <br />
-If you use these snippets and the definition is missing in the preamble of the document, it will not compile.
+If you use these snippets and the definition is missing in the preamble of the document, it will not compile.<br />
+<br />
+<br />
 -------------LUA SNIPPETS PARA ESCRIBIR LATEX VELOZ------------------<br />
 Algunos snippets (fragmentos de código) que permiten escribir LaTeX mucho más rapido. <br />
 
