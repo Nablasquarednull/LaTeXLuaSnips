@@ -44,6 +44,9 @@ return {
 				\centerline{ \Large{ \textbf{ <> }}}
 
 				<>
+				\selectlanguage{spanish}
+				\bibliography{cite}{} %documento con nombre "cite.bib"
+				\bibliographystyle{plain}
 
 				\end{document}
 			]],
