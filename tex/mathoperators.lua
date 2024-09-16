@@ -155,6 +155,19 @@ s({trig="det",snippetType= "autosnippet",dscr= "Adds the determinant in text for
       t("\\text{det}"),
   },{condition = in_mathzone}),
 
+--Set symbols and math mode spaces
+s({trig="qua",snippetType= "autosnippet", priority = 1000,dscr= "space while in math mode",wordTrig = false},
+    {
+      t("\\quad"),
+  },{condition = in_mathzone}),
+s({trig="cup",snippetType= "autosnippet", priority = 1000,dscr= "Union symbol (set theory)",wordTrig = false},
+    {
+      t("\\cup"),
+  },{condition = in_mathzone}),
+s({trig="cap",snippetType= "autosnippet", priority = 1000,dscr= "Intersection symbol (set theory)",wordTrig = false},
+    {
+      t("\\cap"),
+  },{condition = in_mathzone}),
 
 
 
@@ -207,7 +220,7 @@ s({trig="ra",snippetType= "autosnippet",dscr= "Right arrow",wordTrig = false},
       t("\\rightarrow"),
   },{condition = in_mathzone}),
 
-s({trig="ua",snippetType= "autosnippet",dscr= "Up arrow",wordTrig = false},
+s({trig="ua",snippetType= "autosnippet", priority = 999,dscr= "Up arrow",wordTrig = false},
     {
       t("\\uparrow"),
   },{condition = in_mathzone}),
