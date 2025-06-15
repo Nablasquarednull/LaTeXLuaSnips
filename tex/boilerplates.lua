@@ -17,12 +17,6 @@ return {
 				\usepackage[T1]{fontenc}
 				\usepackage{mathtools}
 				\usepackage{siunitx}
-				\newenvironment{ex}[2][Exercise]{\begin{trivlist}
-				\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
-
-				\newenvironment{sol}[1][Solution]{\begin{trivlist}
-				\item[\hskip \labelsep {\bfseries #1:}]}{\end{trivlist}}
-
 				\newcommand{\meq}{\overset{!}{=}}
 				\DeclarePairedDelimiter\bra{\langle}{\rvert}
 				\DeclarePairedDelimiter\ket{\lvert}{\rangle}

@@ -87,16 +87,6 @@ s({trig="im", dscr="Expands 'im' into an inline math environment",wordTrig = fal
      { i(1) }
   )
 ),
-s({trig="begindoc", dscr="inserts begin/end doc environment",wordTrig = false},
-  fmta(
-     [[
-\begin{document}
-	<>
-\end{document}
-     ]],
-     { i(1) }
-  )
-),
 s({trig="beg", dscr="Inserts a begin{}/end{} environment",wordTrig = false},
   fmta(
      [[
@@ -211,28 +201,6 @@ s({trig="itemize", dscr="Expands 'itemize' into an un-ordered list with an item.
      { i(1) }
   )
 ),
-
-s({trig="ex", dscr="Adds an exercise environment",wordTrig = false},
-  fmta(
-     [[
-\begin{ex}
-	<>
-\end{ex}
-     ]],
-     { i(1) }
-  )
-),
-
-s({trig="sol", dscr="Adds a 'solution' environment. ",wordTrig = false},
-  fmta(
-     [[
-\begin{sol} <> \end{sol}
-<>
-     ]],
-     { i(1), i(2) }
-  )
-),
-
 s({trig="itm",snippetType= "autosnippet",dscr= "Adds an item for a list.",wordTrig = false},
     {
       t("\\item "),
@@ -264,31 +232,6 @@ s({trig="vb",snippetType="autosnippet",dscr="Vertical Brackets",wordTrig= false}
 s({trig="db",snippetType="autosnippet",dscr="double vertical Brackets",wordTrig= false},fmta([[
 \db*{<>}<>
 ]],{i(1),i(0)}),{condition = in_mathzone}),
--------------------------------------------------------------------------
---s({trig="rb",dscr="Parentheses (Round brackets)",wordTrig= false},fmta([[
---\left(<>\right) <>
---]],{i(1),i(0)})),
---
---s({trig="sb",dscr="Square Brackets",wordTrig= false},fmta([[
---\left[<>\right] <>
---]],{i(1),i(0)})),
---
---s({trig="cb",dscr="Curly Brackets",wordTrig= false},fmta([[
---\left\{<> \right\}<>
---]],{i(1),i(0)})),
---
---s({trig="ab",dscr="Angle Brackets",wordTrig= false},fmta([[
---\left\langle <> \right\rangle<>
---]],{i(1),i(0)})),
---
---s({trig="vb",dscr="Vertical Brackets",wordTrig= false},fmta([[
---\normed*{<>} <>
---]],{i(1),i(0)})),
---
---s({trig="db",dscr="double vertical Brackets",wordTrig= false},fmta([[
---\left\| <> \right\| <>
---]],{i(1),i(0)})),
---
 ----------------------------------------------INSIDE MATH ENVIRONMENTS/COMMANDS-----------------------------------------------------
 
 s({trig="boxed",snippetType= "autosnippet",dscr="Boxed equation command",wordTrig= false},fmta([[
